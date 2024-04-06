@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+1@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 *{
     margin:0;
@@ -303,4 +303,11 @@ body{
     100%{
         pointer-events: auto;
     }
+}
+
+@media only screen and (max-width:600px;){
+    .home{
+          background-image: none;
+          background-color: #081b29;
+          }
 }
